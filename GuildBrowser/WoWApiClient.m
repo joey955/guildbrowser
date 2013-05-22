@@ -39,7 +39,7 @@ static dispatch_once_t oncePredicate;
              onRealm:(NSString *)realmName
              success:(GuildBlock)successBlock
                error:(ErrorBlock)errorBlock
-{ // test change
+{ // test change again
     
     NSString *url = [NSString stringWithFormat:@"/api/wow/guild/%@/%@",realmName,guildName];
     
